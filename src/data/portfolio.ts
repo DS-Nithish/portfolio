@@ -43,7 +43,7 @@ export const portfolioData = {
     location: "India",
     email: "nithismugen@gmail.com",
     github: "https://github.com/DS-Nithish",
-    linkedin: "https://linkedin.com",
+    linkedin: "https://www.linkedin.com/in/nithish-r-b47754282/",
     twitter: "https://twitter.com",
     resumeUrl: "#resume",
   },

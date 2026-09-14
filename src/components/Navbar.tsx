@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { ThemeToggle } from "./ThemeToggle";
 import { Menu, X, Terminal as TerminalIcon } from "lucide-react";
-import { GithubIcon } from "./Icons";
+import { GithubIcon, LinkedinIcon } from "./Icons";
 import { portfolioData } from "@/data/portfolio";
 
 export function Navbar({ onOpenTerminal }: { onOpenTerminal?: () => void }) {
@@ -83,6 +83,16 @@ export function Navbar({ onOpenTerminal }: { onOpenTerminal?: () => void }) {
             className="w-8 h-8 rounded-md border border-neutral-200 dark:border-neutral-800 hover:border-neutral-400 dark:hover:border-neutral-600 flex items-center justify-center text-neutral-600 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-100 transition-colors"
           >
             <GithubIcon className="w-4 h-4" />
+          </a>
+
+          <a
+            href={portfolioData.personal.linkedin}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn Profile"
+            className="w-8 h-8 rounded-md border border-neutral-200 dark:border-neutral-800 hover:border-neutral-400 dark:hover:border-neutral-600 flex items-center justify-center text-neutral-600 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-100 transition-colors"
+          >
+            <LinkedinIcon className="w-4 h-4" />
           </a>
 
           <ThemeToggle />
