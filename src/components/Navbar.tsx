@@ -45,7 +45,7 @@ export function Navbar({ onOpenTerminal }: { onOpenTerminal?: () => void }) {
             {portfolioData.personal.name}
           </span>
           <span className="text-xs text-neutral-400 dark:text-neutral-500 font-normal hidden sm:inline">
-            // sys & ml
+            sys & ml
           </span>
         </Link>
 

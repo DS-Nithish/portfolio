@@ -32,7 +32,7 @@ export function Hackathon() {
     <section id="hackathon" className="py-20 border-t border-neutral-200 dark:border-neutral-800/80">
       <div className="max-w-5xl mx-auto px-6">
         <div className="flex items-center gap-3 mb-2">
-          <span className="font-mono text-xs text-neutral-400 dark:text-neutral-500">// 05</span>
+          <span className="font-mono text-xs text-neutral-400 dark:text-neutral-500">05</span>
           <h2 className="text-xl font-bold tracking-tight text-neutral-900 dark:text-neutral-100">
             Smart India Hackathon (SIH) Showcase
           </h2>

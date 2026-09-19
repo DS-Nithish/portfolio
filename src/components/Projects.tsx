@@ -27,7 +27,7 @@ export function Projects() {
         <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-10">
           <div>
             <div className="flex items-center gap-3 mb-2">
-              <span className="font-mono text-xs text-neutral-400 dark:text-neutral-500">// 02</span>
+              <span className="font-mono text-xs text-neutral-400 dark:text-neutral-500">02</span>
               <h2 className="text-xl font-bold tracking-tight text-neutral-900 dark:text-neutral-100">
                 Featured Projects
               </h2>
@@ -78,7 +78,7 @@ export function Projects() {
                       </span>
                       {project.featured && (
                         <span className="text-[11px] font-mono text-neutral-400 dark:text-neutral-500">
-                          // featured
+                          featured
                         </span>
                       )}
                     </div>

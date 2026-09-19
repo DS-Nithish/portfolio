@@ -204,7 +204,7 @@ export function TerminalWidget({
           <div className="space-y-3 text-xs sm:text-sm font-mono">
             {portfolioData.skillCategories.map((cat) => (
               <div key={cat.title}>
-                <p className="text-neutral-400 font-semibold mb-1">// {cat.title}:</p>
+                <p className="text-neutral-400 font-semibold mb-1">{cat.title}:</p>
                 <p className="text-neutral-300 pl-2">
                   {cat.skills.map((s) => s.name).join(" • ")}
                 </p>
@@ -378,7 +378,7 @@ export function TerminalWidget({
     <section id="terminal" className="py-16 border-t border-neutral-200 dark:border-neutral-800/80">
       <div className="max-w-5xl mx-auto px-6">
         <div className="flex items-center gap-3 mb-6">
-          <span className="font-mono text-xs text-neutral-400 dark:text-neutral-500">// 03</span>
+          <span className="font-mono text-xs text-neutral-400 dark:text-neutral-500">04</span>
           <h2 className="text-xl font-bold tracking-tight text-neutral-900 dark:text-neutral-100">
             Interactive Systems Shell
           </h2>

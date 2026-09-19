@@ -58,7 +58,7 @@ export function Hero({ onOpenTerminal }: { onOpenTerminal?: () => void }) {
           <div className="p-4 rounded-lg border border-neutral-200 dark:border-neutral-800/80 bg-neutral-50/50 dark:bg-neutral-900/30">
             <div className="flex items-center justify-between mb-1">
               <span className="font-mono text-xs text-neutral-400 dark:text-neutral-500">
-                01 // SYSTEMS
+                01 · SYSTEMS
               </span>
               <RustIcon className="w-4 h-4 text-amber-600 dark:text-amber-500" />
             </div>
@@ -73,7 +73,7 @@ export function Hero({ onOpenTerminal }: { onOpenTerminal?: () => void }) {
           <div className="p-4 rounded-lg border border-neutral-200 dark:border-neutral-800/80 bg-neutral-50/50 dark:bg-neutral-900/30">
             <div className="flex items-center justify-between mb-1">
               <span className="font-mono text-xs text-neutral-400 dark:text-neutral-500">
-                02 // SYSTEMS HOBBY
+                02 · SYSTEMS HOBBY
               </span>
               <CIcon className="w-4 h-4 text-sky-600 dark:text-sky-400" />
             </div>
@@ -88,7 +88,7 @@ export function Hero({ onOpenTerminal }: { onOpenTerminal?: () => void }) {
           <div className="p-4 rounded-lg border border-neutral-200 dark:border-neutral-800/80 bg-neutral-50/50 dark:bg-neutral-900/30">
             <div className="flex items-center justify-between mb-1">
               <span className="font-mono text-xs text-neutral-400 dark:text-neutral-500">
-                03 // SECURITY
+                03 · SECURITY
               </span>
               <ShieldCheck className="w-4 h-4 text-emerald-600 dark:text-emerald-400" />
             </div>
@@ -103,7 +103,7 @@ export function Hero({ onOpenTerminal }: { onOpenTerminal?: () => void }) {
           <div className="p-4 rounded-lg border border-neutral-200 dark:border-neutral-800/80 bg-neutral-50/50 dark:bg-neutral-900/30">
             <div className="flex items-center justify-between mb-1">
               <span className="font-mono text-xs text-neutral-400 dark:text-neutral-500">
-                04 // CORE CS
+                04 · CORE CS
               </span>
               <Cpu className="w-4 h-4 text-purple-600 dark:text-purple-400" />
             </div>
