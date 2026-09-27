@@ -10,6 +10,7 @@ import { TerminalWidget } from "@/components/TerminalWidget";
 import { Skills } from "@/components/Skills";
 import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
+import { PortfolioGlowCursor } from "@/components/PortfolioGlowCursor";
 
 export default function Home() {
   const [terminalModalOpen, setTerminalModalOpen] = useState(false);
@@ -25,6 +26,9 @@ export default function Home() {
 
   return (
     <div className="min-h-screen flex flex-col selection:bg-neutral-900 selection:text-white dark:selection:bg-neutral-100 dark:selection:text-black">
+      {/* React Bits Glow Cursor effect */}
+      <PortfolioGlowCursor />
+
       {/* Top Navbar without Hackathon tab, with Experience */}
       <Navbar onOpenTerminal={scrollToTerminal} />
 

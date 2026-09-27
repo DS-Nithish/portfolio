@@ -1,4 +1,4 @@
-import { Trophy, CheckCircle, TrendingUp, Cpu, Database, Network } from "lucide-react";
+import { Trophy, TrendingUp, Cpu, Database, Network } from "lucide-react";
 
 export function Hackathon() {
   const steps = [

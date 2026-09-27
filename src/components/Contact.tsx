@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { portfolioData } from "@/data/portfolio";
-import { Mail, Copy, Check, Send, ArrowUpRight } from "lucide-react";
+import { Copy, Check, Send, ArrowUpRight } from "lucide-react";
 import { GithubIcon, LinkedinIcon } from "./Icons";
 
 export function Contact() {

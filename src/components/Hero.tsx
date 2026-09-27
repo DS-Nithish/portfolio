@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { ArrowDown, Copy, Check, Terminal, ShieldCheck, Cpu } from "lucide-react";
-import { RustIcon, CIcon, RaylibIcon } from "./Icons";
+import { RustIcon, CIcon } from "./Icons";
 import { portfolioData } from "@/data/portfolio";
 
 export function Hero({ onOpenTerminal }: { onOpenTerminal?: () => void }) {

@@ -1,5 +1,5 @@
 import { portfolioData, SkillCategory } from "@/data/portfolio";
-import { Terminal, Cpu, Database, ShieldCheck } from "lucide-react";
+import { Terminal, Cpu, Database } from "lucide-react";
 import { RustIcon, CIcon, RaylibIcon } from "./Icons";
 
 export function Skills() {
